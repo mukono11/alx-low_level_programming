@@ -1,13 +1,12 @@
 #include <stdio.h>
 
-#include <main.h">
 /**
- *_putchar - prints out to the output
- *Return : Always 0
+ *main - Entry point
+ *Return: Always 0 (success)
  */
 
-int _putchar(char c)
+int main(void)
 {
-	putchar(c);
+	printf("_putchar\n");
 	return (0);
 }
